@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+    font-family: cursive;
+}
+
+.userinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+body{
+    background-color: blue;
+}
+input{
+    width: 90%;
+    font-size: 15px;
+    margin: 2px;
+}
+button{
+    background-color: aqua;
+    width: 90%;
+    margin: 2px;
+    border-radius: 10px;
+    font-size: 15px;
+}
